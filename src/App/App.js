@@ -13,10 +13,8 @@ const App = () => {
     voteAverage: "",
   });
 
-  const infoAboutMovie = (allInfo) => {
-    setAllInfo(allInfo);
-  };
-
+  const infoAboutMovie = (allInfo) => setAllInfo(allInfo) ;
+  
   return (
     <Container className="text-center p-3">
       <BrowserRouter basename="/app">
