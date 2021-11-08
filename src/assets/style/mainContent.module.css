@@ -1,0 +1,12 @@
+.bgrond {
+  background-color: rgba(0, 0, 0, 0.705) !important;
+}
+.poster {
+  height: 400px;
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+.greenN {
+  color: #00fc87;
+  font-size: 1rem;
+}

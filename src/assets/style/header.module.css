@@ -1,0 +1,66 @@
+.inp {
+  color: rgb(255, 255, 255) !important;
+  border-bottom: 2px white solid;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+img {
+  border-style: none;
+  vertical-align: middle;
+}
+.lis {
+  padding: 11px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.lis:hover {
+  color: black;
+  background-color: #2ef034;
+}
+.uls {
+  list-style: none;
+  background-color: #000000d6;
+  color: white;
+  position: absolute;
+  right: 20%;
+  top: 69%;
+  z-index: 99;
+  cursor: pointer;
+  text-align: initial;
+  padding: 0px;
+  animation: fadein ease-out 0.7s;
+}
+@media (min-width: 0px) {
+  .uls {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .uls {
+    width: 55%;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hide {
+  display: none;
+}
