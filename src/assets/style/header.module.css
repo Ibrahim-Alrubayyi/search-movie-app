@@ -5,7 +5,9 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  background-color: transparent;
+  background-color: #000000ba;
+  padding: 5px;
+  border-radius: 5px;
 }
 a:hover {
   text-decoration: none;

@@ -2,9 +2,23 @@
   background-color: rgba(0, 0, 0, 0.705) !important;
 }
 .poster {
-  height: 400px;
   width: 100%;
   border-radius: 0 0 3px 3px;
+}
+@media (min-width: 0px) {
+  .wid {
+    width: 75%;
+  }
+}
+@media (min-width: 768px) {
+  .wid {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .wid {
+    width: 75%;
+  }
 }
 .greenN {
   color: #00fc87;
